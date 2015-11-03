@@ -31,6 +31,16 @@ PRODUCT_PACKAGES += \
     PacProcessor \
     ProxyHandler \
     SharedStorageBackup \
-    VpnDialogs
+    VpnDialogs \
+\
+    hwcomposer.default \
+    librtsp_jni \
+    fbset \
+    SVMPProtocol \
+    remote_events \
+    audio.primary.svmp  \
+    sensors.svmp  \
+    libremote_events_jni \
+    libjingle_peerconnection_so.so
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_base.mk)
