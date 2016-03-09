@@ -38,8 +38,8 @@ PRODUCT_PACKAGES += \
     fbset \
     SVMPProtocol \
     remote_events \
-    audio.primary.svmp  \
-    sensors.svmp  \
+    audio.primary.sense_svmp  \
+    sensors.sense_svmp  \
     libremote_events_jni \
     libjingle_peerconnection_so.so
 
